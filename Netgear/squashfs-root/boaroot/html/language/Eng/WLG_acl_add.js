@@ -1,0 +1,10 @@
+var wireless_card_setup_str="Wireless Card Access Setup";
+var wireless_available_str="Available Wireless Cards";
+var device_name_str="Device Name";
+var mac_addr_str="MAC Address";
+var wireless_card_entry_str="Wireless Card Entry";
+var device_not_null_str="Device name can not be null.";
+var invalid_device_str="Invalid device name.";
+var device_name_dup_str="Duplicate device name.";
+var mac_dup_str="Duplicate MAC address.";
+var max_num_rule_str="Max number of rules reached!";

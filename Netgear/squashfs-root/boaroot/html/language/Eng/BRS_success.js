@@ -1,0 +1,14 @@
+var bh_congratulations_str="Congratulations!";
+var bh_connect_success_1_str="You are successfully connected to the Internet.";
+var bh_connect_success_2_str="This router is preset with the following unique wireless network name (SSID) and ";
+var bh_success_no_wireless_security_1_str="Wireless security is not enabled on this router. NETGEAR highly recommends that you";
+var bh_success_no_wireless_security_2_str="click here";
+var bh_success_no_wireless_security_3_str="to enable wireless security and protect your network.";
+var bh_wireless_str="Wireless";
+var bh_wpa_wpa2_passpharse_str="Network Key (Password)";
+var bh_print_this_str="Print this";
+var bh_take_to_internet_str="Take me to the Internet";
+var bh_not_support_print_str="Computer does not support a printer.";
+var bh_network_key_str="network key (password)";
+var bh_wirless_name_str="Wireless Network Name (SSID)";
+var bh_rollover_help_text_str="Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.";

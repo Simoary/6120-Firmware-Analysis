@@ -1,0 +1,10 @@
+var bh_netword_issue_str="Network Connection Issue";
+var bh_cannot_connect_internet_str="The router cannot connect to the Internet with the current settings.";
+var bh_plz_reveiw_items_str="Please review the following items:";
+var bh_cable_connection_str="- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.";
+var bh_modem_power_properly_str="- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.";
+var bh_try_again_or_manual_config_str="Do you want NETGEAR genie to try again?";
+var bh_I_want_manual_config_str="No. I want to configure the Internet connection myself.";
+var bh_manual_config_connection_str="I want to configure the Internet connection myself";
+var bh_yes_mark_str="Yes";
+var bh_no_genie_help_confirm_str="Configuring the Internet connection requires networking experience. Are you sure?";

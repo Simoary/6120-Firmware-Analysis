@@ -1,0 +1,10 @@
+var bh_detecting_connection_str="Detecting the Internet Connection";
+var bh_plz_wait_process_str="This process can take a minute or two; please wait...";
+var ppp_str="PPPoE";
+var pptp_str="PPTP";
+var l2tp_str="L2TP";
+var dhcp_str="DHCP";
+var IP_problem_str="Problem Detecting the Internet Connection";
+var noWan_str="No Ethernet Cable Is Plugged into the Router Internet Port";
+var bh_detecting_connection_full_str="Wizard is performing full scan of PVC/Protocol.";
+var bh_plz_wait_process_full_str="This takes approximately 1 to 6 minutes.";

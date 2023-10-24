@@ -1,0 +1,16 @@
+var remote_manager_title_str="Remote Management";
+var remote_manager_turn_on_str="Turn Remote Management On";
+var remote_manager_address_str="Remote Management Address";
+var remote_manager_access_str="Allow Remote Access By";
+var remote_manager_access_type1_str="Only This Computer";
+var remote_manager_access_type2_str="IP Address Range";
+var remote_manager_access_type3_str="Everyone";
+var from_str="From";
+var to_str="To";
+var remote_manager_port_str="Port Number";
+var warning_str="Warning";
+var invalid_remote_ip_conflict_wan_str="You cannot set the remote IP to be the same as the WAN IP or to include the WAN IP.";
+var invalid_remote_ip_str="Invalid IP address. Please enter it again.";
+var invalid_remote_ip_conflict_lan_str="IP address cannot be on LAN subnet";
+var invalid_remote_ip_range_str="Invalid IP address range.";
+var invalid_remote_port_str="Invalid port number. It should be in the range 1024-65534. ";

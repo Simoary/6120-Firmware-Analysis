@@ -1,0 +1,12 @@
+var firmware_update_str="Router Update";
+var locate_and_select_str="Locate and select the upgrade file on your hard disk.";
+var please_wait_str="Please wait a moment...";
+var updating_setting_str="Updating Settings";
+var wrong_file_str="Firmware upgrade failed. Please check your file.";
+var invalid_str="Invalid ";
+var invalid_filename_str="File Name";
+var check_for_new_version_str="Check for new version from the Internet.";
+var check_for_login_str="Check for new version upon login";
+var current_firmware_version_str="Current Firmware Version";
+var uploaded_version_str="Uploaded Version";
+var check_str="Check";

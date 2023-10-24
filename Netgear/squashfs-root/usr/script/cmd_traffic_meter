@@ -1,0 +1,94 @@
+#!/bin/sh 
+
+#
+# Exection begins here
+#
+
+#TMP CHANGE!!
+#endis_traffic=`tcapi get TrafficMeter_Entry endis_traffic`
+endis_traffic="1"
+
+#traffic_disable_wan=`nvram get traffic_disable_wan`
+#RC_TRAFFIC="$2"
+#RC_TRAFFIC="y"
+
+case "$1" in
+start)
+	echo -n "traffic_meter start : \n"
+	if [ "$endis_traffic" = "1" ]; then
+	        #echo -n "traffic_meter start : "
+	        /tmp/trafficmeter_script_tmp
+		#/usr/script/generate_traffic_meter_conf
+		#cp -f /tmp/traffic_statistics /tmp/traffic_meter/
+		/userfs/bin/traffic_meter &
+		#echo "."
+	else
+		#if [ "x$RC_TRAFFIC" = "xy" ]; then
+	        /tmp/trafficmeter_script_tmp
+                #/usr/script/generate_traffic_meter_conf
+		#	cp -f /tmp/traffic_statistics /tmp/traffic_meter/
+		/userfs/bin/traffic_meter -e &
+		#fi
+#		if [ "$traffic_disable_wan" = "1" ]; then
+#
+# DISABLE WAN 
+#
+#		fi	
+	fi
+	echo "."
+	;;
+
+stop)
+	echo -n "traffic_meter stop : "
+	/usr/bin/killall -SIGTERM traffic_meter
+	echo "."
+	;;
+
+restart)
+	$0 stop
+	$0 start
+	;;
+config_update)
+	echo -n "traffic_meter config_update : "
+	traffic=`ps | grep "traffic_meter" | grep -v "grep" | grep -v "cmd"`
+	if [ "$endis_traffic" = "1" -a "x$traffic" != "x" ]; then
+		/usr/script/generate_traffic_meter_conf
+		/usr/bin/killall -SIGUSR1 traffic_meter
+		echo "."
+	else
+		# Fix recovery internet led as long as Traffic Meter from enable #
+		# to disable with satisfying traffic-limit condition.            #
+
+		#/usr/sbin/nvram unset traffic_led_flashing
+		#/usr/sbin/nvram set action=6:internet_led
+		echo 34 0 0 0 0 > /proc/tc3162/led_def
+		#$0 stop
+		#$0 start 
+#$RC_TRAFFIC
+	fi
+	;;
+restart_counter)
+	echo -n "traffic_meter restart_counter : "
+	/usr/bin/killall -SIGUSR2 traffic_meter
+	echo "."
+	;;
+update_statistics)
+	echo -n "traffic_meter update_statistics"
+	if [ -f /tmp/traffic_meter/traffic_statistics ]; then
+		UNIT="`cat /tmp/traffic_meter/traffic_statistics | grep Today | sed s/^.*,../1/g`"
+#		if [ "$UNIT" = "1" -a "`usr/sbin/tcapi get TrafficMeter_Entry gui_region`" != "Italian" ] || [ "$UNIT" != "1" -a "`usr/sbin/tcapi get TrafficMeter_Entry gui_region`" = "Italian" ]; then
+			cat /tmp/traffic_meter/traffic_statistics | sed s/,/#/g > /tmp/traffic_meter/traffic_statistics1
+			cat /tmp/traffic_meter/traffic_statistics1 | sed s/\\./@/g > /tmp/traffic_meter/traffic_statistics2
+			cat /tmp/traffic_meter/traffic_statistics2 | sed s/#/\\./g > /tmp/traffic_meter/traffic_statistics1
+			cat /tmp/traffic_meter/traffic_statistics1 | sed s/@/\\./g > /tmp/traffic_meter/traffic_statistics
+			rm -f /tmp/traffic_meter/traffic_statistics1 /tmp/traffic_meter/traffic_statistics2
+#		fi
+	fi
+	;;
+*)
+	#echo "Usage: /sbin/traffic_meter {start|stop|restart|config_update|restart_counter}"
+	echo "Usage: /usr/script/cmd_traffic_meter {start|stop|restart|config_update|restart_counter|update_statistics)}"
+	exit 1
+	;;
+esac
+

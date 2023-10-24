@@ -1,0 +1,13 @@
+var dynamic_dns_str="Dynamic DNS";
+var use_a_dynamic_dns_str="Use a Dynamic DNS Service";
+var service_provider_str="Service Provider";
+var hostname_str="Host Name";
+var username_str="User Name";
+var password_str="Password";
+var use_wildcards_str="Use Wildcards";
+var alert_hostname_cannot_be_blank_str="Host name can not be blank.";
+var alert_username_cannot_be_blank_str="User name cannot be blank.";
+var alert_password_cannot_be_blank_str="Password cannot be blank.";
+var alert_invalid_hostname_str="Invalid host name.";
+var alert_invalid_username_str="Invalid user name.";
+var alert_invalid_password_str="Invalid password.";

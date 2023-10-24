@@ -1,0 +1,1 @@
+var reboot_str="Rebooting the router will disrupt active traffic on the network. Are you sure?";

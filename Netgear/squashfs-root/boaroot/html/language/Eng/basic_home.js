@@ -1,0 +1,13 @@
+var home_status_str="STATUS";
+var home_error_str="Error";
+var home_not_connected_str="Not Connected";
+var home_warning_str="Warning";
+var home_no_security_str="No Security";
+var home_number_device_str="Number of devices";
+var home_not_support_str="NOT SUPPORTED";
+var home_enabled_str="ENABLED";
+var home_not_enabled_str="NOT ENABLED";
+var home_off_str="OFF";
+var home_no_usb_drive_str="No USB drive";
+var home_ready_str="READY";
+var home_good_str="GOOD";

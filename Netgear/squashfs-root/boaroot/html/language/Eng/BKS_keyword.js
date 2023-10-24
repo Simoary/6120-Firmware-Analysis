@@ -1,0 +1,18 @@
+var block_sites_str="Block Sites";
+var to_learn_more_about_str="To learn more about advanced content filtering and keyword blocking features from NETGEAR, please go to <a class='linktype' href='http://www.netgear.com/lpc' target='_blank'>www.netgear.com/lpc</a>.";
+var keyword_blocking_str="Keyword Blocking";
+var never_str="Never";
+var per_schedule_str="Per Schedule";
+var always_str="Always";
+var type_keyword_or_domain_name_str="Type keyword or domain name here.";
+var block_sites_containing_these_keywords_str="Block sites containing these keywords or domain names:";
+var allow_trusted_ip_address_str="Allow trusted IP address to visit blocked sites";
+var trusted_ip_address_str="Trusted IP Address";
+var add_keyword_str="Add Keyword";
+var delete_keyword_str="Delete Keyword";
+var clear_list_str="Clear List";
+var alert_invalid_ip_str="Invalid IP address. Please enter it again.";
+var alert_the_trusted_ip_be_same_subent_str="The trusted IP address and LAN IP address must be in the same subnet.\n";
+var alert_support_only_255_keyword_str="The router can support only 255 keywords or domain names";
+var alert_invalid_keyword_str="Invalid keyword";
+var alert_existed_keyword_str="The keyword already exists!";

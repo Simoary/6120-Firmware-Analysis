@@ -1,0 +1,24 @@
+var connection_status_str="Connection Status";
+var ip_addr_str="IP Address";
+var subnet_mask_str="Subnet Mask";
+var default_gateway_str="Default Gateway";
+var dhcp_server_str="DHCP Server";
+var dns_server_str="DNS Server";
+var lease_obtained_str="Lease Obtained";
+var lease_expires_str="Lease Expires";
+var release_str="Release";
+var renew_str="Renew";
+var close_window_str="Close Window";
+var con_time_str="Connection Time";
+var con_status_str="Connection Status";
+var negotiation_str="Negotiation";
+var authentication_str="Authentication";
+var success_str="Success";
+var connected_str="connected";
+var disconnected_str="disconnected";
+var connect_str="Connect";
+var disconnect_str="Disconnect";
+var logged_in_str="Logged in";
+var logged_out_str="Logged out";
+var confirm_to_re_establish_str="To re-establish the connection, please click the <Connect> button";
+

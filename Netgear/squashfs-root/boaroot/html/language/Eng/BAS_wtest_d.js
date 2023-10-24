@@ -1,0 +1,2 @@
+var testing_internet_connection_str="Testing Internet Connection";
+var this_page_will_auto_display_str="This page will automatically display the NETGEAR website if a successful Internet connection is detected.";

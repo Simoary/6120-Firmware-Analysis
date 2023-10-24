@@ -1,0 +1,1 @@
+var now_you_can_remove_str="<TR><TD nowrap><B>Now you can remove this device.</B></TD></TR>";

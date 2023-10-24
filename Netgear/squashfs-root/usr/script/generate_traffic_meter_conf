@@ -1,0 +1,102 @@
+#!/bin/sh
+traffic_get="/userfs/bin/tcapi get TrafficMeter_Entry"
+traffic_set="/userfs/bin/tcapi set TrafficMeter_Entry"
+#wan_proto="$($traffic_cmd get wan_proto)"
+
+if [ ! -e /tmp/traffic_meter ]; then
+	mkdir /tmp/traffic_meter/
+fi
+
+TRAFFIC_STATUS=/tmp/traffic_meter/traffic_meter.conf
+#if [ "$wan_proto" = "pppoe" ] || [ "$wan_proto" = "pptp" ] || [ "$wan_proto" = "l2tp" ];then
+#	connection_type=0
+#else
+	connection_type=1
+#fi
+#endis_traffic_meter="$($traffic_get endis_traffic_meter)"
+#control_type="$($traffic_get control_type)"
+#volume_control_type="$($traffic_get volume_control_type)"
+#monthly_volume_limit="$($traffic_get monthly_volume_limit)"
+#round_up_data="$($traffic_get round_up_data)"
+#monthly_time_limit="$($traffic_get monthly_time_limit)" 
+#restart_day="$($traffic_get restart_day)"
+#restart_time_hour="$($traffic_cmd get restart_counter_time | awk -F: '{print $1}')"
+#restart_time_min="$($traffic_cmd get restart_counter_time | awk -F: '{print $2}')"
+#restart_time_hour="$($traffic_get restart_time_hour)"
+#restart_time_min="$($traffic_get restart_time_min)"
+#traffic_led="$($traffic_get traffic_led)"
+#traffic_block="$($traffic_get traffic_block)"
+
+#if [ -f /tmp/ppp/ppp_conn_time ] ;then
+#	last_conn_time=`cat /etc/ppp/ppp_conn_time | awk -F. '{print $1}'`
+#else
+	last_conn_time=0
+#fi
+#if [ -f /tmp/ppp/ppp_stop_time ] ;then
+#	last_stop_time=`cat /etc/ppp/ppp_stop_time | awk -F. '{print $1}'`
+#else
+	last_stop_time=0
+#fi
+#left_volume_time="$($traffic_get left_volume_time)"
+
+#GUI_Region="$($traffic_cmd get GUI_Region)"
+#if [ "$GUI_Region" = "German" ] ;then
+#       GUI_Region=1
+#else
+       #GUI_Region=0
+	gui_region=0
+#fi
+#if [ "$endis_traffic_meter" = "0" ] && [ "$($traffic_cmd get dns_hijack)" = "2" ]; then
+#	$traffic_cmd set dns_hijack=0
+#fi
+
+## Caculate intercalary ##
+if [ "$restart_day" = "0" ]; then
+
+	year=`date +%Y`
+	mon=`date +%m`
+	intercalary=0
+
+	yy1=$year%4
+	yy2=$year%100
+	yy3=$year%400
+	if [ $yy1 = 0 -o  $yy2 = 0 -o $yy3 = 0 ]; then
+	    if [ $mon = "02" ]; then
+		intercalary=1
+	    fi
+	fi
+#	if [ $($year%4) = 0 -o  $($year%100) = 0 -o $($year%400) = 0 ]; then
+#		if [ "$(($mon))" = "2" ]; then ## Feb. ##
+#	        intercalary=1
+#		fi
+#	fi
+	for i in 31 28 31 30 31 30 31 31 30 31 30 31
+	do
+	    mon=`expr $mon - 1`
+	    if [ $mon -le 0 ]; then
+		day=$i
+		break;
+	    fi
+	done
+	tmp2=`expr $day + $intercalary`
+	restart_day=$tmp2
+	echo "restart_day: $restart_day"
+fi
+
+echo "connection_type="$connection_type > $TRAFFIC_STATUS
+echo "endis_traffic_meter="$endis_traffic_meter >> $TRAFFIC_STATUS
+echo "control_type="$control_type >> $TRAFFIC_STATUS
+echo "volume_control_type="$volume_control_type >> $TRAFFIC_STATUS
+echo "monthly_volume_limit="$monthly_volume_limit >> $TRAFFIC_STATUS
+echo "round_up_data="$round_up_data >> $TRAFFIC_STATUS
+echo "monthly_time_limit="$monthly_time_limit >> $TRAFFIC_STATUS
+echo "restart_day="$restart_day >> $TRAFFIC_STATUS
+echo "restart_time_hour="$restart_time_hour >> $TRAFFIC_STATUS
+echo "restart_time_min="$restart_time_min >> $TRAFFIC_STATUS
+echo "traffic_led="$traffic_led >> $TRAFFIC_STATUS
+echo "traffic_block="$traffic_block >> $TRAFFIC_STATUS
+echo "last_conn_time="$last_conn_time >> $TRAFFIC_STATUS
+echo "last_stop_time="$last_stop_time >> $TRAFFIC_STATUS
+echo "left_volume_time="$left_volume_time >> $TRAFFIC_STATUS
+echo "GUI_Region="$GUI_Region >> $TRAFFIC_STATUS
+

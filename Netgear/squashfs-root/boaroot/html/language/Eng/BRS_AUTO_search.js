@@ -1,0 +1,1 @@
+var firmware_upgrade_assistant_str="Firmware Upgrade Assistant";

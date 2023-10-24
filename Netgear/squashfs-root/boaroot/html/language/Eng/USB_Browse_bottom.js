@@ -1,0 +1,1 @@
+var close_window_str="Close Window";

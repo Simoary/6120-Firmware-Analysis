@@ -1,0 +1,24 @@
+#!/bin/sh
+#mtd_path=/dev/mtd/5
+mtd_path=/dev/mtd12
+
+if [ -e /tmp/traffic_meter/meter/statistic ]; then
+#echo "save nvram.config into flash"
+    #/usr/sbin/mkfs.jffs2 --pad --big-endian --squash -n -e 16KiB -o /tmp/meter.jffs2-16k -d /tmp/meter
+    #TODO
+    #/usr/sbin/flash_eraseall $mtd_path
+    /userfs/bin/mtd erase $mtd_path
+    #/usr/sbin/nandwrite $mtd_path /tmp/meter.jffs2-16k
+    #TODO
+    #/userfs/bin/mtd -f write /tmp/traffic_meter/meter/statistic <length> <offset> $mtd_path
+else
+#echo "copy default nvram.config from flash"
+	#mkdir -p /tmp/meter
+	#cp -f /etc/nvram/nvram.config /tmp/configs
+    #/usr/sbin/mkfs.jffs2 --pad --big-endian --squash -n -e 16KiB -o /tmp/nvram.jffs2-16k -d /tmp/configs
+    #/usr/sbin/flash_eraseall $mtd_path
+	#/usr/sbin/nandwrite /dev/nvram /tmp/nvram.jffs2-16k
+    /userfs/bin/mtd erase $mtd_path
+fi
+rm -f /tmp/meter.jffs2-16k
+

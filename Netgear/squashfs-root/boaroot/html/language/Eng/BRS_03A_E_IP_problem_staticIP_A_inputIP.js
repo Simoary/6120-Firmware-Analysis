@@ -1,0 +1,15 @@
+var bh_fix_ip_setting_str="Fixed Internet IP Settings";
+var bh_enter_ip_setting_str="Enter the fixed IP settings assigned by your Internet Service Provider and click <b>Next</b> to proceed.";
+var bh_info_mark_ip_str="My IP Address";
+var bh_info_mark_mask_str="Subnet Mask";
+var bh_constatus_defgtw_str="Default Gateway";
+var bh_preferred_dns_str="Preferred DNS Server";
+var bh_alternate_dns_str="Alternate DNS Server";
+var bh_invalid_ip_str="Invalid IP address. Please enter it again.";
+var bh_invalid_mask_str="Invalid subnet mask. Please enter it again.\n";
+var bh_invalid_gateway_str="Invalid gateway IP address. Please enter it again.";
+var bh_same_subnet_ip_gtw_str="The IP address and gateway IP address must be in the same subnet.\n";
+var bh_same_lan_wan_subnet_str="The LAN IP address and WAN IP address must not be in the same subnet.";
+var dns_must_specified_str="DNS address must be specified.";
+var invalid_primary_dns_str="Invalid primary DNS address. Please enter it again.\n";
+var invalid_second_dns_str="Invalid secondary DNS address. Please enter it again.\n";

@@ -1,0 +1,16 @@
+#!/bin/sh
+#mtd_path=/dev/mtd/5
+mtdblock_path=/dev/mtdblock12
+
+if [ ! -e /tmp/traffic_meter/meter_mount ]; then
+    mkdir -p /tmp/traffic_meter/meter_mount
+fi
+
+if [ ! -e /tmp/traffic_meter/meter ]; then
+    mkdir -p /tmp/traffic_meter/meter
+fi
+
+echo "****** Meter Mount ********"
+mount -t jffs2 $mtdblock_path /tmp/traffic_meter/meter_mount
+cp -f /tmp/traffic_meter/meter_mount/* /tmp/traffic_meter/meter
+umount /tmp/meter_mount

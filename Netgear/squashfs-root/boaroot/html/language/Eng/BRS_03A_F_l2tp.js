@@ -1,0 +1,17 @@
+var bh_l2tp_connection_str="L2TP Internet Connection Detected";
+var bh_enter_info_below_str="Enter the required information below.";
+var bh_pppoe_login_name_str="Login";
+var bh_ddns_passwd_str="Password";
+var bh_basic_pppoe_idle_str="Idle Time-Out(in minutes)";
+var bh_info_mark_ip_str="My IP Address";
+var bh_info_mark_mask_str="Subnet Mask";
+var bh_basic_pptp_servip_str="Server Address";
+var bh_sta_routes_gtwip_str="Gateway IP Address";
+var bh_apply_connection_str="Applying Internet Connection Settings";
+var bh_plz_waite_apply_connection_str="This process can take a minute or two; please wait...";
+var bh_login_name_null_str="User name cannot be blank.";
+var bh_password_error_str="Invalid password.";
+var bh_idle_time_null_str="Please enter idle time.\n";
+var bh_invalid_idle_time_str="Invalid idle time. Please enter a correct number.\n";
+var bh_invalid_myip_str="Invalid IP address. Please enter it again, or leave it blank.";
+var bh_invalid_gateway_str="Invalid gateway IP address. Please enter it again.";

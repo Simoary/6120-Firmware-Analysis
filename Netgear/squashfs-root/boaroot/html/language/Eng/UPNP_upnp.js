@@ -1,0 +1,14 @@
+var invalid_advertise_period_str="Invalid Advertisement Period value. The value must be in the range 1-1440.";
+var invalid_advertise_ttl_str="Invalid Advertisement Time to Live value. The value must be in the range 1-255.";
+var upnp_title_str="UPnP";
+var upnp_turn_on_str="Turn UPnP On";
+var upnp_advertise_period_str="Advertisement Period";
+var upnp_advertise_period_unit_str="(in minutes)";
+var upnp_advertise_ttl_str="Advertisement Time to Live";
+var upnp_advertise_ttl_unit_str="(in hops)";
+var upnp_port_table_str="UPnP Portmap Table";
+var active_str="Active";
+var protocol_str="Protocol";
+var upnp_inter_port_str="Int. Port";
+var upnp_exter_port_str="Ext. Port";
+var ipaddr_str="IP Address";

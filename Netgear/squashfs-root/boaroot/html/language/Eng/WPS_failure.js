@@ -1,0 +1,14 @@
+var failure_str="Failure";
+var clients_pin_not_correct_str="The client's PIN is not correct.";
+var fail_add_wireless_str="Failed to add a wireless client to the network.";
+var wps_procedure_timeout_str="WPS procedure has timed out.";
+var fail_add_wireless_client_in_str="Failed to add a wireless client to the network in ";
+var check_client_support_wps_str="Please check whether the client supports the WPS function.";
+var wps_procedure_cancel_str="WPS procedure has been canceled by user.";
+var detect_more_client_str="Security Risk: detecting more than one client with push button pressed.";
+var check_new_wireless_str="Click <b>OK</b> to check the new wireless settings...";
+var go_back_wifi_protected_str="Click <b>OK</b> to go back to the Wi-Fi Protected Setup screen.";
+var click_str="click";
+var ok_str="OK";
+var wireless_setting_change_str="Note: The wireless settings have been changed.";
+var minutes_str=" minutes.";

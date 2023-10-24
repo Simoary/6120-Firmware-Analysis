@@ -1,0 +1,12 @@
+var multi_user_warning="You are currently logged in from another device. There can be only one device logged in at a time. If you log in from this device, the other device will be logged out. Do you want to proceed?";
+var help_and_support="HELP & SUPPORT";
+var yes_mark="Yes";
+var no_mark="No";
+var help_and_support="HELP & SUPPORT";
+var search_help="SEARCH HELP";
+var router_name="d3600";
+var router_firmware_version="Router Firmware Version";
+var exit_mark="Exit";
+var docu_head="Documentation";
+var router_faq="Router FAQ";
+var router_fw_version_str="Router Firmware Version";

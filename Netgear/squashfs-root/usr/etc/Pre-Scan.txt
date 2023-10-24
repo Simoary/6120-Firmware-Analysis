@@ -1,0 +1,31 @@
+Country	VPI/VCI
+Australia	8/35
+France	"8/35,8/36"
+India	"0/32,0/33,0/35,1/32,1/33"
+Italy	"8/35,8/36"
+New Zealand	0/100
+Singapore	0/100
+Philippine	0/100
+Hong Kong	1/32
+Malaysia	0/35
+Indonesia	"0/35,1/33,8/35"
+Vietnam	"0/33,0/35,8/35,8/38"
+Thailand	"0/33,0/35,0/100,1/32"
+Austria	"0/32,8/48"
+Belgium	8/35
+Czech Republic	8/48
+Denmark	0/35
+Hungary	1/32
+Luxembourg	8/35
+Netherlands 	"0/32,0/34,0/35,8/35,8/48"
+Poland	"0/35,1/32,8/35"
+Spain	"0/33,8/32,8/35"
+Sweden	8/35
+Switzerland	"0/34,8/35"
+UK	"0/38,0/101"
+Canda	"0/32,0/33,0/35"
+US	"0/32,0/33,0/34,0/35,8/35"
+Russia	"0/44,8/35,8/32,0/35,8/48,0/33,1/50,1/100"
+China	"0/44,8/35,8/32,0/35,8/48"
+Brazil	"0/44,8/35,8/32,0/35,8/48"
+Other	"0/44,8/35,8/32,0/35,8/48,0/100,1/32"

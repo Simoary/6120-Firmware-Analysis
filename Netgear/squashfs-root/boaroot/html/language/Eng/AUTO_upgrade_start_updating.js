@@ -1,0 +1,1 @@
+var firmware_updating_str="Firmware Update";

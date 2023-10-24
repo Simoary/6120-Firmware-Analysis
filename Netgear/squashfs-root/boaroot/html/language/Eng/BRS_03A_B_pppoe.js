@@ -1,0 +1,14 @@
+var bh_pppoe_connection_str="PPPoE DSL Internet Connection Detected";
+var bh_pppoa_connection_str="PPPoA Detected";
+var bh_enter_info_below_str="Enter the required information below.";
+var bh_pppoe_login_name_str="Login";
+var bh_ddns_passwd_str="Password:";
+var bh_login_name_null_str="User name cannot be blank.";
+var bh_password_error_str="Invalid password.";
+var bh_apply_connection_str="Applying Internet Connection Settings";
+var bh_plz_waite_apply_connection_str="This process can take a minute or two; please wait...";
+var pppoe_reenter_str="PPPoE";
+var pppoa_reenter_str="PPPoA";
+var success_str="Success";
+var networkIssue_str="Network Connection Issue";
+var reenter_str="Incorrect ISP User name or Password";

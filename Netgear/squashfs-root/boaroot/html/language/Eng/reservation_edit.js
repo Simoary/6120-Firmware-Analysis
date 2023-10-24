@@ -1,0 +1,17 @@
+var reservation_title_str="Address Reservation";
+var lanip_str="IP Address";
+var device_name_str="Device Name";
+var mac_str="MAC Address";
+var invalid_ip_str="Invalid IP address. Please enter it again.";
+var invalid_mask_str="Invalid subnet mask. Please enter it again.\n";
+var invalid_dhcp_start_ip_str="Invalid DHCP starting IP address. Please enter it again.\n";
+var invalid_dhcp_end_ip_str="Invalid DHCP ending IP address. Please enter it again.\n";
+var invalid_dhcp_ip_str="Invalid DHCP ending and starting IP addresses. Please enter them again.\n";
+var invalid_rsv_del_str="Please select an item to delete.";
+var invalid_rsv_ip_str="This IP address should be in the same subnet as the LAN IP address.";
+var invalid_rsv_ip_duplicate_str="The input data is duplicated with current record,\ncontinue to overwrite?";
+var invalid_rsv_MAC_duplicate_str="The input data is duplicated with current record,\ncontinue to overwrite?";
+var invali_rsv_edit_str="Please select an item to edit.";
+var invalid_resevation_add_str="Maximum Number of Reserved Address Reached.";
+var wan_lan_conflict_str="IP address is conflicted with WAN IP subnet, please enter again.";
+var device_name_null_str="Device name can not be null.";

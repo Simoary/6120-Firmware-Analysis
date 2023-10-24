@@ -1,0 +1,2 @@
+var no_internet_connection_str="No Internet connection";
+var no_internet_connection_is_detected_str="No Internet connection is detected. The router cannot check the NETGEAR server for updated firmware. After setting up your Internet connection, go to the Router Upgrade screen to check for updated firmware.";

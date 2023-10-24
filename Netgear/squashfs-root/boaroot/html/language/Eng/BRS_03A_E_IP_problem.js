@@ -1,0 +1,11 @@
+var bh_no_internet_ip_str="Problem Detecting the Internet Connection";
+var bh_genie_cannot_find_ip_str="This is most likely due to one of the following reasons:";
+var bh_genie_cannot_find_ip_reason1_str="1.  The modem was not power cycled during the cabling step.";
+var bh_genie_cannot_find_ip_reason1_desc_str="To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.";
+var bh_genie_cannot_find_ip_reason2_str="2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.";
+var bh_genie_cannot_find_ip_reason2_desc_str="To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.";
+var bh_select_no_IP_option_str="Select one of the options below and click <b>Next</b> to proceed:";
+var bh_select_no_IP_option1_str="I just power cycled the modem and waited for 2 minutes.";
+var bh_select_no_IP_option2_str="I corrected a problem with the Ethernet cable.";
+var bh_select_no_IP_option3_str="None of the above.";
+var bh_select_an_option_str="Select an option first.";

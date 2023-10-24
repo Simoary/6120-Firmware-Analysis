@@ -1,0 +1,17 @@
+var bh_ipoa_connection_str="IPoA Internet IP Settings";
+var bh_enter_ip_setting_str="Enter the fixed IP settings assigned by your Internet Service Provider and click <b>Next</b> to proceed.";
+var bh_info_mark_ip_str="My IP Address";
+var bh_info_mark_mask_str="Subnet Mask";
+var bh_constatus_defgtw_str="Default Gateway";
+var bh_preferred_dns_str="Preferred DNS Server";
+var bh_alternate_dns_str="Alternate DNS Server";
+var bh_apply_connection_str="Applying Internet Connection Settings";
+var bh_plz_waite_apply_connection_str="This process can take a minute or two; please wait...";
+var error_invalid_ip_address_str="IP Address";
+var error_invalid_ip_subnet_mask_str="Invalid IP Subnet Mask.";
+var error_invalid_gateway_ip_address_str="Gateway IP Address";
+var error_invalid_primary_dns_str="Invalid primary DNS address. Please enter it again.\n";
+var error_invalid_secondard_dns_str="Invalid secondary DNS address. Please enter it again.\n";
+var dns_must_specified_str="DNS address must be specified.";
+var invalid_primary_dns_str="Invalid primary DNS address. Please enter it again.\n";
+var invalid_second_dns_str="Invalid secondary DNS address. Please enter it again.\n";

@@ -1,0 +1,12 @@
+var qos_setup_str="QoS Setup";
+var wmm_setting_enable_str="Enable WMM (Wi-Fi multimedia) settings";
+var wmm_setting_5g_enable_str="Enable WMM (Wi-Fi multimedia) settings";
+var turn_internet_str="Turn Internet Access QoS On";
+var turn_bandwidth_str="Turn Bandwidth Control On";
+var uplink_bandwidth_str="Uplink bandwidth";
+var maximum_str="Maximum";
+var kbps_str="Kbps";
+var mbps_str="Mbps";
+var uplink_bandwidth_auto_str="Automatically check Internet Uplink bandwidth";
+var help_center_str="Help Center";
+var show_hide_help_str="Show/Hide Help Center";

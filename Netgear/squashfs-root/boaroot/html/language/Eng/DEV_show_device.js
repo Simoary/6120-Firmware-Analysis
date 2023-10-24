@@ -1,0 +1,9 @@
+var please_wait_a_moment_str="Please wait a moment...";
+var attached_devices_str="Attached Devices";
+var wired_devices_str="Wired Devices";
+var ip_address_str="IP Address";
+var mac_address_str="MAC Address";
+var device_name_str="Device Name";
+var wireless_devices_str="Wireless Devices (Wireless intruders also show up here)";
+var two_four_g_wireless_devices_str="2.4G Wireless Devices (Wireless intruders also show up here)";
+var five_g_wireless_devices_str="5G Wireless Devices (Wireless intruders also show up here)";

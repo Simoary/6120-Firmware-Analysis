@@ -1,0 +1,11 @@
+var backup_settings_str="Backup Settings";
+var save_a_copy_str="Save a copy of current settings";
+var restore_saved_settings_str="Restore saved settings from a file";
+var revert_to_factory_str="Revert to factory default settings";
+var loading_the_factory_default_str="Loading the factory default settings will erase all the current settings.";
+var are_you_sure_str="Are you sure you want to do this?";
+var update_settings_str="Updating Settings";
+var filename_cannot_blank_str="File name cannot be blank.";
+var please_assign_the_correct_file_str="Please assign the correct file. The file format is *.";
+var warning_restoring_settings_str="Warning! \nRestoring settings from a configuration file will erase all of the current settings. \nAre you sure you want to do this?";
+var please_wait_form_two_minutes_str="Updating Settings";

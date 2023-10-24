@@ -1,0 +1,16 @@
+var bh_ISP_namePasswd_error_str="Incorrect ISP User name or Password";
+var bh_enter_info_again_str="Enter the required information again.";
+var bh_pppoe_login_name_str="Login";
+var bh_ddns_passwd_str="Password";
+var bh_manual_config_connection_str="I want to configure the Internet connection myself";
+var bh_try_again_str="Try again";
+var bh_no_genie_help_confirm_str="Configuring the Internet connection requires networking experience. Are you sure?";
+var bh_login_name_null_str="User name cannot be blank.";
+var bh_password_error_str="Invalid password.";
+var bh_apply_connection_str="Applying Internet Connection Settings";
+var bh_plz_waite_apply_connection_str="This process can take a minute or two; please wait...";
+var pppoe_reenter_str="PPPoE";
+var pppoa_reenter_str="PPPoA";
+var success_str="Success";
+var networkIssue_str="Network Connection Issue";
+var reenter_str="Incorrect ISP User name or Password";
