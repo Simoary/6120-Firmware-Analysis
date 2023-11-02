@@ -1,0 +1,3 @@
+login.php (REDIR)
+logout.php (REDIR)
+index.php (REDIR)
