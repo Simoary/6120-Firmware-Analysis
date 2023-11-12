@@ -1,0 +1,66 @@
+adv_load_balance.php (REDIR)
+NEC-Magnus_display_new.php
+bsc_lan.php (REDIR)
+model/__logo.php
+adv_fair.php (REDIR)
+adv_captivals_v2.php (REDIR)
+locale/zhtw/__file_is_processing.php
+dwp2360b_display_new.php
+st_logs.php (REDIR)
+comm/__header.php
+sys_list_error.php (REDIR)
+model/__burn_time.php
+model/__sch_list.php
+dap2360_display_new.php
+adv_dhcpd.php (REDIR)
+comm/__js_comm.php
+sys/restart.htm (REDIR)
+auth/__session_timeout.php (REDIR)
+locale/zhtw/__active_msg.php
+adv_wtp.php (REDIR)
+locale/zhtw/adv_trafficmanage.php
+locale/zhcn/tool_admin.php
+index.html
+dap2695_display_new.php
+locale/zhcn/adv_resource.php
+locale/zhcn/adv_perf.php
+locale/de/adv_rogue.php
+locale/zhtw/bsc_capwap.php
+locale/zhcn/captival_language.php
+locale/zhcn/tool_config.php
+locale/en/login.php
+locale/zhcn/adv_url_cap.php
+locale/zhcn/adv_captivalu_v2.php
+locale/zhcn/adv_rogue.php
+locale/en/adv_captivalu.php
+WAP-N08A_display_new.php
+locale/en/adv_captivalu_v2.php
+adv_updnsetting_s.php
+sys_fw_invalid.php
+locale/zhtw/charset
+locale/de/sys_cfg_valid.php
+locale/de/langcode
+adv_captivalu.php
+sys/wrongImg.htm (REDIR)
+sys/restart2.htm (REDIR)
+auth/__authenticate_s.php
+locale/zhcn/sys_cfg_valid.php
+locale/zhcn/__rebooting_msg.php
+locale/zhcn/adv_qos_user.php
+locale/zhtw/langcode
+locale/zhtw/st_logs.php
+locale/en/logout.php
+sys_cfg_valid.php
+locale/de/logout.php
+adv_mcast.php
+locale/zhcn/langcode
+locale/de/st_logs.php
+locale/zhcn/upload_tar_error.php
+html/Version.html (REDIR)
+locale/zhcn/home_sys.php
+locale/zhcn/adv_fair.php
+locale/en/help.php
+locale/ko/langcode
+locale/en/st_wds_info.php
+locale/zhtw/web_redirect_out.php
+locale/de/frame_menu.php

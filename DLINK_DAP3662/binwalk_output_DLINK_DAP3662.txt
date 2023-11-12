@@ -1,0 +1,107 @@
+
+Scan Time:     2023-11-11 15:15:23
+Target File:   /home/nicholas/Desktop/Scripts/DAP3662-firmware-v101-rc022.bin
+MD5 Checksum:  17d195f73328bd3d35ca38754ac230ab
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+112           0x70            Unix path: /dev/mtdblock/1
+160           0xA0            LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 2859520 bytes
+983200        0xF00A0         PackImg section delimiter tag, little endian size: 3176960 bytes; big endian size: 8007680 bytes
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/tmp -> /var/tmp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/sbin/xgi -> /usr/sbin/atp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/sbin/sgi -> /usr/sbin/atp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/localtime -> /var/localtime; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/hosts -> /var/hosts; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/resolv.conf -> /var/etc/resolv.conf; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/TZ -> /var/TZ; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/ppp -> /var/etc/ppp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/init.d/S03config.sh -> /etc/scripts/config.sh; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/etc/init.d/S10system.sh -> /etc/scripts/system.sh; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/dev/log -> /var/logs; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/usr/local/etc/radiusclient-ng/radiusclient.conf -> /var/radiusclient-ng/radiusclient.conf; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/usr/local/etc/radiusclient-ng/servers -> /var/radiusclient-ng/servers; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/www/tsyslog.rg -> /var/log/tlogsmsg; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/www/syslog.rg -> /var/log/message; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/htdocs/upnp/upnpdev.cgi -> /usr/sbin/upnpkits; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/htdocs/upnp/xmldoc -> /var/upnp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root/htdocs/upnp/wfadev.cgi -> /usr/sbin/upnpkits; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/tmp -> /var/tmp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/sbin/xgi -> /usr/sbin/atp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/sbin/sgi -> /usr/sbin/atp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/localtime -> /var/localtime; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/hosts -> /var/hosts; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/resolv.conf -> /var/etc/resolv.conf; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/TZ -> /var/TZ; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/ppp -> /var/etc/ppp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/init.d/S03config.sh -> /etc/scripts/config.sh; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/etc/init.d/S10system.sh -> /etc/scripts/system.sh; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/dev/log -> /var/logs; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/usr/local/etc/radiusclient-ng/radiusclient.conf -> /var/radiusclient-ng/radiusclient.conf; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/usr/local/etc/radiusclient-ng/servers -> /var/radiusclient-ng/servers; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/www/tsyslog.rg -> /var/log/tlogsmsg; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/www/syslog.rg -> /var/log/message; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/htdocs/upnp/upnpdev.cgi -> /usr/sbin/upnpkits; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/htdocs/upnp/xmldoc -> /var/upnp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root-0/htdocs/upnp/wfadev.cgi -> /usr/sbin/upnpkits; changing link target to /dev/null for security purposes.
+983232        0xF00C0         Squashfs filesystem, little endian, version 4.0, compression:lzma, size: 8005962 bytes, 1306 inodes, blocksize: 131072 bytes, created: 2015-06-29 06:44:12
+
+
+Scan Time:     2023-11-11 15:15:29
+Target File:   /home/nicholas/Desktop/Scripts/_DAP3662-firmware-v101-rc022.bin.extracted/A0
+MD5 Checksum:  1014bb7c5424bfa254de81006e0e780b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+79076         0x134E4         Certificate in DER format (x509 v3), header length: 4, sequence length: 30
+1358120       0x14B928        Certificate in DER format (x509 v3), header length: 4, sequence length: 4
+2232352       0x221020        Linux kernel version 2.6.31
+2263008       0x2287E0        DES SP2, big endian
+2263520       0x2289E0        DES SP1, big endian
+2288368       0x22EAF0        CRC32 polynomial table, little endian
+2537080       0x26B678        Neighborly text, "NeighborSolicitsIPv6 over IPv4 tunneling driver"
+2537100       0x26B68C        Neighborly text, "NeighborAdvertisementsling driver"
+2540183       0x26C297        Neighborly text, "neighbor %.2x%.2x.%.2x:%.2x:%.2x:%.2x:%.2x:%.2x lost on port %d(%s)(%s)"
+2859008       0x2BA000        ASCII cpio archive (SVR4 with no CRC), file name: "/dev", file name length: "0x00000005", file size: "0x00000000"
+2859124       0x2BA074        ASCII cpio archive (SVR4 with no CRC), file name: "/dev/console", file name length: "0x0000000D", file size: "0x00000000"
+2859248       0x2BA0F0        ASCII cpio archive (SVR4 with no CRC), file name: "/root", file name length: "0x00000006", file size: "0x00000000"
+2859364       0x2BA164        ASCII cpio archive (SVR4 with no CRC), file name: "TRAILER!!!", file name length: "0x0000000B", file size: "0x00000000"
+

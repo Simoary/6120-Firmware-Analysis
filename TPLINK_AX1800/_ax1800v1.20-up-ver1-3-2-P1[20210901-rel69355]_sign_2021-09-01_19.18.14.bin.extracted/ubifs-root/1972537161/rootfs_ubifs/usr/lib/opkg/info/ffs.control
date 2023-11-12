@@ -1,0 +1,13 @@
+Package: ffs
+Version: 1-0.0
+Depends: 
+Provides: 
+Source: /home/jenkins/workspace/Router/Archer_AX20_V1.20_all_model/Iplatform/packages/private/ffs
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Chen chaoxiang<chenchaoxiang@tp-link.net>
+Architecture: all
+Installed-Size: 6098
+Description:  UCI based ffs
