@@ -1,0 +1,13 @@
+Package: pppoe-discovery
+Version: 3.8p
+Depends: 
+Provides: 
+Source: /home/jenkins/workspace/Router/Archer_AX20_V1.20_all_model/Iplatform/packages/opensource/pppoe-discovery
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Ye Qianchuan <yeqianchuan@tp-link.net>
+Architecture: model_brcm_bcm490x
+Installed-Size: 6086
+Description:  pppoe discovery

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+. /lib/functions.sh
+
+local enable
+config_load amazon_ffs
+config_get enable "ffs" "enable" "off"
+
+[ "$ACTION" = "start" -a  "$enable" = "on" ] && {
+	. /lib/ffs/ffs_core.sh
+	ffs_rule_exit
+	ffs_rule_init
+}

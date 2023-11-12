@@ -1,0 +1,6 @@
+{
+  "firmwareProxy": "./modules/main/models.js?t=98ab8ea5",
+  "readSpeedTestProxy": "./modules/networkMap/speedTest/models.js?t=98ab8ea5",
+  "tokenProxyIndex": "./modules/advanced/tpLinkCloud/models.js?t=98ab8ea5",
+  "deviceInfoProxyIndex": "./modules/advanced/tpLinkCloud/models.js?t=98ab8ea5"
+}

@@ -1,0 +1,124 @@
+#1 Router Firmware DLINK DAP-3662 v1.0.1
+
+Extraction:
+Command: sudo ./sources/extractor/extractor.py -b DLINK -sql 127.0.0.1 -np -nk "DAP-3662_REVA_FIRMWARE_1.01RC022.ZIP" images
+
+Output:
+>> Database Image ID: 2
+
+/home/nicholas/Desktop/Analysis/firmadyne/DAP-3662_REVA_FIRMWARE_1.01RC022.ZIP
+>> MD5: 0c414bea6f4c133d7b087c975a18a2f7
+>> Tag: 2
+>> Temp: /tmp/tmp07y4a6kc
+>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+>>>> Zip archive data, at least v2.0 to extract, compressed size: 365216, uncompressed size: 458109, name: DAP-3662_REVA_RELEASENOTES_1.01RC022_EN.PDF
+>> Recursing into archive ...
+	
+/tmp/tmp07y4a6kc/_DAP-3662_REVA_FIRMWARE_1.01RC022.ZIP.extracted/DAP3662-firmware-v101-rc022.bin
+	>> MD5: 17d195f73328bd3d35ca38754ac230ab
+	>> Tag: 2
+	>> Temp: /tmp/tmpmes8vk1m
+	>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+	>> Recursing into archive ...
+	>>>> Squashfs filesystem, little endian, version 4.0, compression:lzma, size: 8005962 bytes, 1306 inodes, blocksize: 131072 bytes, created: 2015-06-29 06:44:12
+	>>>> Found Linux filesystem in /tmp/tmpmes8vk1m/_DAP3662-firmware-v101-rc022.bin.extracted/squashfs-root!
+	>> Skipping: completed!
+	>> Cleaning up /tmp/tmpmes8vk1m...
+>> Skipping: completed!
+>> Cleaning up /tmp/tmp07y4a6kc...
+
+
+
+RUNNING NMAP COMMAND:
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-11-11 13:33 AST
+Nmap scan report for 192.168.0.50
+Host is up (0.0023s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE    VERSION
+23/tcp  open  telnet     D-Link 524, DIR-300, or WBR-1310 WAP telnetd
+80/tcp  open  http       D-Link WAP http ui
+443/tcp open  ssl/https?
+MAC Address: 00:15:E9:2C:75:00 (D-Link)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.38 - 3.0
+Network Distance: 1 hop
+Service Info: Device: WAP
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.13 seconds
+
+Exploits located in exploits_DLINK_DAP3662
+
+#2 Router Firmware WNDAP360 v2.0.0
+
+command: udo ./sources/extractor/extractor.py -b Netgear -sql 127.0.0.1 -np -nk "WNDAP360 Firmware Version 2.0.0.zip" images
+
+Output:
+>> Database Image ID: 3
+
+/home/nicholas/Desktop/Analysis/firmadyne/WNDAP360 Firmware Version 2.0.0.zip
+>> MD5: ea94e716634abdea2d34f1a908087e14
+>> Tag: 3
+>> Temp: /tmp/tmpu44njw5n
+>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+>>>> Zip archive data, at least v2.0 to extract, compressed size: 1912, uncompressed size: 7101, name: ReleaseNotes_WNDAP360_fw_2.0.0.html
+>> Recursing into archive ...
+	
+/tmp/tmpu44njw5n/_WNDAP360 Firmware Version 2.0.0.zip.extracted/WNDAP360_V2.0.0_firmware.tar
+	>> MD5: 375f717d91297640a567096ff5a5f9c8
+	>> Tag: 3
+	>> Temp: /tmp/tmp_8d6dknq
+	>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+	>>>> POSIX tar archive (GNU), owner user name: "gz.uImage"
+	>> Recursing into archive ...
+		
+/tmp/tmp_8d6dknq/_WNDAP360_V2.0.0_firmware.tar.extracted/kernel.md5
+		>> MD5: 2249da5ca146dbd94d1910fec6d8732a
+		>> Skipping: text/plain...
+		
+/tmp/tmp_8d6dknq/_WNDAP360_V2.0.0_firmware.tar.extracted/root_fs.md5
+		>> MD5: 09987381420ee835c4836b74ac3f8d14
+		>> Skipping: text/plain...
+		
+/tmp/tmp_8d6dknq/_WNDAP360_V2.0.0_firmware.tar.extracted/rootfs.squashfs
+		>> MD5: e4a7d0c7a9cd2804fbaf07109aec210a
+		>> Tag: 3
+		>> Temp: /tmp/tmpf_memco0
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>>>> Squashfs filesystem, big endian, lzma signature, version 3.1, size: 4434310 bytes, 1476 inodes, blocksize: 65536 bytes, created: 2011-04-07 13:28:07
+		>>>> Found Linux filesystem in /tmp/tmpf_memco0/_rootfs.squashfs.extracted/squashfs-root!
+		>> Skipping: completed!
+		>> Cleaning up /tmp/tmpf_memco0...
+	>> Skipping: completed!
+	>> Cleaning up /tmp/tmp_8d6dknq...
+>> Skipping: completed!
+>> Cleaning up /tmp/tmpu44njw5n...
+
+firmware contains MD5 hashes, which are obviously unsafe.
+
+RUNNING NMAP COMMAND:
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-11-11 14:37 AST
+Nmap scan report for 192.168.0.100
+Host is up (0.0026s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        Dropbear sshd 0.51 (protocol 2.0)
+80/tcp  open  http       lighttpd 1.4.18
+443/tcp open  ssl/https?
+MAC Address: 52:54:00:12:34:56 (QEMU virtual NIC)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.38 - 3.0
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 24.30 seconds
+
+
+

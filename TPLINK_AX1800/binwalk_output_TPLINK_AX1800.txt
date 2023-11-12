@@ -1,0 +1,31 @@
+
+Scan Time:     2023-11-11 17:28:39
+Target File:   /home/nicholas/Desktop/Scripts/ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin
+MD5 Checksum:  9184db8e6637de2e46a2fb8707bce881
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+4560          0x11D0          JFFS2 filesystem, little endian
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/var -> /tmp; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/sbin/dw -> /usr/sbin/memaccess; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/sbin/write -> /usr/sbin/bcm_flasher; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/sbin/sw -> /usr/sbin/memaccess; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/sbin/mount.ntfs-3g -> /usr/bin/ntfs-3g; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/lib/modules/4.1.52/build -> /home/jenkins/workspace/Router/Archer_AX20_V1.20_all_model/bcm675x/bcm963xx_5.02L.07/kernel/linux-4.1; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/etc/mtab -> /proc/29319/mounts; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/etc/resolv.conf -> /tmp/resolv.conf; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/etc/TZ -> /tmp/TZ; changing link target to /dev/null for security purposes.
+
+WARNING: Symlink points outside of the extraction directory: /home/nicholas/Desktop/Scripts/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin.extracted/ubifs-root/1972537161/rootfs_ubifs/etc/ppp/resolv.conf -> /tmp/resolv.conf.ppp; changing link target to /dev/null for security purposes.
+4067792       0x3E11D0        UBI erase count header, version: 1, EC: 0x0, VID header offset: 0x800, data offset: 0x1000
+

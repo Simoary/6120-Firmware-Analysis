@@ -1,0 +1,25 @@
+#!/bin/sh /etc/rc.common
+
+START=14
+
+FFS_LIBDIR=/lib/ffs
+
+boot() {
+	. ${FFS_LIBDIR}/ffs_core.sh
+	config_load /etc/config/sysmode
+	config_get sysmode sysmode mode
+	
+	config_load /etc/config/amazon_ffs
+	config_get ffs_enable ffs enable
+	config_get ffs_iface ffs wireless_iface
+	
+	config_load /etc/config/wireless
+	config_get ffs_iface_enable "${ffs_iface}" enable
+
+    if [ "$sysmode" == "router" -a "$ffs_enable" == "on" ]; then
+    	if [ -z "$ffs_iface_enable" -o "$ffs_iface_enable" != "on" ]; then
+    		ffs_config_init boot_load_config
+    	fi
+	fi
+}
+
