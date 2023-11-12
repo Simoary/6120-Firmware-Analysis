@@ -121,4 +121,97 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 24.30 seconds
 
 
+#3 TPLINK ARCHER1800
+
+sudo ./sources/extractor/extractor.py -b TPLINK -sql 127.0.0.1 -np -nk "Archer AX1800_V1.2_210901.zip" images
+[sudo] password for nicholas: 
+>> Database Image ID: 4
+
+/home/nicholas/Desktop/Analysis/firmadyne/Archer AX1800_V1.2_210901.zip
+>> MD5: 7544bdf8e02f330137fbd77562990b30
+>> Tag: 4
+>> Temp: /tmp/tmp51qrqv_o
+>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+>>>> Zip archive data, at least v1.0 to extract, name: Archer AX1800_V1.2_210901/
+>> Recursing into archive ...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/GPL License Terms.pdf
+	>> MD5: 360ae19273142e70e23825c3920507f8
+	>> Skipping: application/pdf...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/How to upgrade TP-LINK Wireless Router(New VI).pdf
+	>> MD5: 263625e91f946aedb3c56225e2e47611
+	>> Skipping: application/pdf...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin
+	>> MD5: 9184db8e6637de2e46a2fb8707bce881
+	>> Tag: 4
+	>> Temp: /tmp/tmp5fwo9tm7
+	>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+	>> Recursing into archive ...
+
+WARNING: Extractor.execute failed to run external extractor 'ubireader_extract_files -o 'ubifs-root' '%e'': [Errno 2] No such file or directory: 'ubireader_extract_files', 'ubireader_extract_files -o 'ubifs-root' '%e'' might not be installed correctly
+	>>>> JFFS2 filesystem, little endian
+	>>>> Zlib compressed data, best compression
+	>> Recursing into compressed ...
+		
+/tmp/tmp5fwo9tm7/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin-0.extracted/F181D5
+		>> MD5: 9bf089056ebbd426f9c7fc383c8154d3
+		>> Tag: 4
+		>> Temp: /tmp/tmpj_epiifm
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>> Recursing into compressed ...
+		>> Cleaning up /tmp/tmpj_epiifm...
+		
+/tmp/tmp5fwo9tm7/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin-0.extracted/F1C71F
+		>> MD5: 6416264e07656946dab393fd46c44bbf
+		>> Tag: 4
+		>> Temp: /tmp/tmpjjby6_71
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>> Recursing into compressed ...
+		>> Cleaning up /tmp/tmpjjby6_71...
+		
+/tmp/tmp5fwo9tm7/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin-0.extracted/F4B03D
+		>> MD5: fc8b78341865497d8c6694e1dd08cbac
+		>> Tag: 4
+		>> Temp: /tmp/tmpuae5tcqq
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>> Recursing into compressed ...
+		>> Cleaning up /tmp/tmpuae5tcqq...
+		
+/tmp/tmp5fwo9tm7/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin-0.extracted/F925E2
+		>> MD5: 66b1dbebf3e151967b92a6947fdc66e1
+		>> Tag: 4
+		>> Temp: /tmp/tmpglnmyk8u
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>> Recursing into compressed ...
+		>> Cleaning up /tmp/tmpglnmyk8u...
+		
+/tmp/tmp5fwo9tm7/_ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin-0.extracted/F98A2A
+		>> MD5: 991a8651b638b01431b4183aab7816f8
+		>> Tag: 4
+		>> Temp: /tmp/tmp_nyi1lq8
+		>> Status: Kernel: True, Rootfs: False, Do_Kernel: False,                 Do_Rootfs: True
+		>> Recursing into archive ...
+		>> Recursing into compressed ...
+		>> Cleaning up /tmp/tmp_nyi1lq8...
+	>> Cleaning up /tmp/tmp5fwo9tm7...
+>> Recursing into compressed ...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/GPL License Terms.pdf
+	>> MD5: 360ae19273142e70e23825c3920507f8
+	>> Skipping: 360ae19273142e70e23825c3920507f8...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/How to upgrade TP-LINK Wireless Router(New VI).pdf
+	>> MD5: 263625e91f946aedb3c56225e2e47611
+	>> Skipping: 263625e91f946aedb3c56225e2e47611...
+	
+/tmp/tmp51qrqv_o/_Archer AX1800_V1.2_210901.zip.extracted/Archer AX1800_V1.2_210901/ax1800v1.20-up-ver1-3-2-P1[20210901-rel69355]_sign_2021-09-01_19.18.14.bin
+	>> MD5: 9184db8e6637de2e46a2fb8707bce881
+	>> Skipping: 9184db8e6637de2e46a2fb8707bce881...
+>> Cleaning up /tmp/tmp51qrqv_o...
 
