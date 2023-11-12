@@ -1,0 +1,768 @@
+#1 TPLINK TL-WR940N v1.0
+
+python BasicDetails.py wr940nv1_en_3_12_8_up\(110117\).bin 
++--------------------------------+------------+
+| Parameter                      | Value      |
++================================+============+
+| CPIO Root Folder Addresses     | NA         |
++--------------------------------+------------+
+| SquashFS Root Folder Addresses | NA         |
++--------------------------------+------------+
+| Firmware Endianness            | Big Endian |
++--------------------------------+------------+
+| Entropy                        | NA         |
++--------------------------------+------------+
+| First 4 bytes (xxd)            |            |
++--------------------------------+------------+
+| Firmware Architecture          | Unknown    |
++--------------------------------+------------+
+| Architecture Variant           | N/A        |
++--------------------------------+------------+
+
+python CVE-2022-1262P1.py wr940nv1_en_3_12_8_up\(110117\).bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _wr940nv1_en_3_12_8_up\(110117\).bin.extracted
+No protest binary files found in the folder.
+
+python Log4jVulnerabilityDetection.py _wr940nv1_en_3_12_8_up\(110117\).bin.extracted
+Scanned Files:
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/vmlinux.bin
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/100000.squashfs
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/_vmlinux.bin.extracted/1C1000
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/_vmlinux.bin.extracted/1C1000.gz
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/_vmlinux.bin.extracted/_1C1000.extracted/0.cpio
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/linuxrc
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/vconfig
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/insmod
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/wlanconfig
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/logread
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/udhcpc
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/iwlist
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/hostapd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/iptables
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/reboot
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/brctl
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/pktlogconf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/iwpriv
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/wpa_supplicant
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/route
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/klogd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/init
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/tc
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/pktlogdump
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/lsmod
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/syslogd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/getty
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/iwconfig
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/rmmod
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/sbin/ifconfig
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/false
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/cat
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/msh
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/rm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/df
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/true
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/ping
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/umount
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/kill
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/login
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/ls
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/busybox
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/sh
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/date
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/echo
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/ps
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/chmod
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/bin/mount
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/librt.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libgcc_s.so.1
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libnsl-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libm.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libutil.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libc.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libm-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libdl.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libresolv.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libmsglog.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libuClibc-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libresolv.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libcrypt.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libcrypt-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libiw.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libresolv-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libpthread-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libwpa_common.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libnsl.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libpthread.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/ld-uClibc-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/ld-uClibc.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/librt.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libm.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/librt-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libgcc_s.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libdl-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libnsl.so.0
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libwpa_ctrl.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libutil-0.9.29.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libpthread.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/libiw.so.29
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_tcp.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_standard.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_SNAT.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_mac.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_time.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_TCPMSS.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_TRIGGER.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_MARK.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_comment.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_udp.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_multiport.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_string.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_icmp.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_DNAT.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_state.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_iprange.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_multiurl.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_MASQUERADE.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/iptables/libipt_wlanwarn.so
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ath_rate_atheros.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_tkip.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ath_hal.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_xauth.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_ccmp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ath_pci.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_scan_sta.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_acl.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_scan_ap.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_wep.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ath_dev.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/wlan_me.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ath_pktlog.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/net/ag7240_mod.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/sch_prio.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_string.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat_tftp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_comment.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/cls_fw.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_iprange.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/iptable_filter.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack_tftp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/wlan_warn.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ts_kmp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/sch_sfq.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/statistics.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat_h323.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_tables.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/tp_domain.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_MARK.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_TCPMSS.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack_h323.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/sch_htb.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_MASQUERADE.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_conntrack.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/pppol2tp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/iptable_nat.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat_rtsp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_state.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat_ftp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_time.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_TRIGGER.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/pptp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/cls_basic.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/br_filter.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_nat_pptp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_multiport.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_mac.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ipt_multiurl.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack_rtsp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack_ftp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/lib/modules/2.6.15/kernel/ip_conntrack_pptp.ko
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/passwd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/group
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/nsswitch.conf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/wr941n.ico
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/services
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/lld2d.conf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/securetty
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/host.conf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/inittab
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/fstab
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/shadow
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/resolv.conf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/issue
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/rc.d/rcS
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/rc.d/iptables-stop
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/rc.d/rc.wlan
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/rc.d/rc.modules
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/wpa2/hostapd.eap_user
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/ath/wsc_config.txt
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/etc/ath/default/default_wsc_cfg.txt
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/arp
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/net_ioctl
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/sbin/pppd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/sbin/udhcpd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/sbin/bpalogin
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/sbin/xl2tpd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/tftp
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/wlanreg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/test
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/httpd
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/[
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/arping
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/logger
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/usr/bin/lld2d
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/oem/model.conf
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/dynaform/common.js
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/dynaform/menu.js
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/dynaform/custom.js
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/dynaform/css_help.css
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/dynaform/css_main.css
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/frames/top.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LanArpBindingRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/PPPoECfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/HttpDebugRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanWpsChkModeRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdStaticIpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/popupSiteSurveyRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LanArpBindingFindRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdWanTypeRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/GetGMTRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SpecialAppAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LanDhcpServerRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/VirtualServerAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/PingIframeRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/StatusRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdEndRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/CmxDdnsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/errorPage.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/DateTimeCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/FixMapCfgAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/UpnpCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdWanAutoTypeRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlHostsListsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/confUploadErrorRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlTimeSchedAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LanArpBindingListRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SysRebootRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/ManageControlRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlAccessTargetsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/L2TPCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WanDynamicIpCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanStationRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanMacFilterRpmAdv.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/StaticRouteTableAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdWlanRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AdvScrRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/ParentCtrlRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/UpdateTemp.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/FixMapCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/MiscShowRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SystemStatisticRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanMacFilterRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanSecurityRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/BakNRestoreRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/DiagnosticRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/MacCloneCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/BasicSecurityRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/DMZRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/PPTPCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/RestoreDefaultCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlAccessTargetsAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessDenied.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AutoEmailRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdStartRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlAccessRulesAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SystemLogRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/DynDdnsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/MenuRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlAccessRulesRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/NoipDdnsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/QoSRuleCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdPPPoERpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanWpsRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LocalManageControlRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/QoSRuleListRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/PPPoECfgAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/MailResultRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/QoSCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/LanArpBindingAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WanStaticIpCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/Index.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlTimeSchedRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WzdWanDisconnRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SpecialAppRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/VirtualServerRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/ParentCtrlAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SoftwareUpgradeRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/WlanNetworkRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/StaticRouteTableRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/BPACfgRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/DebugResult.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AssignedIpAddrListRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/restart.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/ChangeLoginPwdRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/SysRouteTableRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/userRpm/AccessCtrlHostsListsAdvRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/empty.gif
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/pw.gif
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/bgColor.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/blue.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/minus.gif
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/top1_2.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/top1_1.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/top_bg.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/helpPic.gif
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/plus.gif
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/images/top2.jpg
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/StaticRouteTableHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/QoSCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/LanArpBindingHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SoftwareUpgradeHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdPPPoEHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdStaticIpHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlAccessTargetsHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AssignedIpAddrListHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlHostsListsAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanStationHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/DMZHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WanDynamicIpCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/QoSRuleCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/StatusHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SystemStatisticHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/MiscAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/LocalManageControlHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/PPPoECfgAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SystemLogHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlTimeSchedHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/MiscHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/BpaCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/NetworkCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/UpnpCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/PingHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/NoipDdnsHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/BasicSecurityHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/LanDhcpServerHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/L2tpCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanWpsChkModeHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/DynDdnsHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/FixMapCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/DateTimeCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdFinishHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/VirtualServerHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanNetworkHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SysRebootHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SpecialAppHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/DdnsAddComexeHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/PPPoECfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlTimeSchedAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanMacFilterHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanWpsHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/QoSRuleListHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdStartHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/BackNRestoreHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AutoEmailHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlAccessTargetsAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SiteSurveyHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/LanArpBindingListHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/PptpCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/ParentCtrlHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdWlanHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/ParentCtrlAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/SysRouteTableHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WzdWanTypeHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WlanSecurityHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/ChangeLoginPwdHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/MacCloneCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlAccessRulesHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlHostsListsHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/RestoreDefaultCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/AccessCtrlAccessRulesAdvHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/help/WanStaticIpCfgHelpRpm.htm
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/localiztion/char_set.js
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/localiztion/str_err.js
+_wr940nv1_en_3_12_8_up(110117).bin.extracted/squashfs-root/web/localiztion/str_menu.js
+No potential Log4j exploits found in the folder.
+
+
+#2 TPLINK TL-WR902AC v1
+
+python BasicDetails.py wr902acv1_us-up-ver3-16-9-P1\[20160905-rel61455\].bin 
++--------------------------------+---------------------------------------------------------+
+| Parameter                      | Value                                                   |
++================================+=========================================================+
+| CPIO Root Folder Addresses     | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| SquashFS Root Folder Addresses | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| Firmware Endianness            | Big Endian                                              |
++--------------------------------+---------------------------------------------------------+
+| Entropy                        | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| First 4 bytes (xxd)            | 00000000: 004d dae5                                .M.. |
++--------------------------------+---------------------------------------------------------+
+| Firmware Architecture          | Unknown                                                 |
++--------------------------------+---------------------------------------------------------+
+| Architecture Variant           | N/A                                                     |
++--------------------------------+---------------------------------------------------------+
+
+python CVE-2022-1262P1.py wr902acv1_us-up-ver3-16-9-P1\[20160905-rel61455\].bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _wr902acv1_us-up-ver3-16-9-P1\[20160905-rel61455\].bin.extracted/ 
+No protest binary files found in the folder.
+
+
+python Log4jVulnerabilityDetection.py _wr902acv1_us-up-ver3-16-9-P1\[20160905-rel61455\].bin.extracted/
+
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/data/treestore.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/widget.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/window/page.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/window/wizard.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/window/panel.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/grid/editor.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/grid/paging.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/grid/grid.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/radio.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/checkbox.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/textbox.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/combobox.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/progressbar.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/tip.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/button.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/buttongroup.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/js/su/widget/form/form.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/localiztion/char_set.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/localiztion/3g.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/localiztion/str_err.js
+_wr902acv1_us-up-ver3-16-9-P1[20160905-rel61455].bin.extracted/squashfs-root/web/localiztion/str_menu.js
+No potential Log4j exploits found in the folder.
+
+#3 TPLINK Archer C6 v2
+
+python BasicDetails.py ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1\[20191112-rel36515\].bin 
++--------------------------------+---------------------------------------------------------+
+| Parameter                      | Value                                                   |
++================================+=========================================================+
+| CPIO Root Folder Addresses     | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| SquashFS Root Folder Addresses | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| Firmware Endianness            | Big Endian                                              |
++--------------------------------+---------------------------------------------------------+
+| Entropy                        | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| First 4 bytes (xxd)            | 00000000: 00d0 67d3                                ..g. |
++--------------------------------+---------------------------------------------------------+
+| Firmware Architecture          | Unknown                                                 |
++--------------------------------+---------------------------------------------------------+
+| Architecture Variant           | N/A                                                     |
++--------------------------------+---------------------------------------------------------+
+
+python CVE-2022-1262P1.py ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1\[20191112-rel36515\].bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1\[20191112-rel36515\].bin.extracted/ 
+No protest binary files found in the folder.
+
+
+python Log4jVulnerabilityDetection.py _ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1\[20191112-rel36515\].bin.extracted/
+
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/js/module/https.1573524501312.js
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/js/module/wirelessSchedule.1573524501312.js
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/js/module/common.1573524501312.js
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/PIE.1573524501312.htc
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/parentControlStyle.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/patrolIE.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/domain-redirect.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/widget.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/style.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/css/ie.1573524501312.css
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-04.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/https-blocking-logo.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/tp-beta-mark.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/no-record.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/icons2.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/https-blocking-icon.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/security.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-02.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-06.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-03.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/loading.1573524501312.gif
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/homecare.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-border-radius.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie-01.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/icons3.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/icons1.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/domain-redirect.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/smart-life-assistant.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/ie.hover.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/qos.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/waiting.1573524501312.gif
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/icons.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/parentControlIcons.1573524501312.png
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/mesh/onemesh-network.1573524501312.gif
+_ArcherA6v2_us_tw_c6us-up-ver1-1-5-P1[20191112-rel36515].bin.extracted/squashfs-root/www/webpages/themes/green/img/mesh/mesh_sprites.1573524501312.png
+No potential Log4j exploits found in the folder.
+
+#4 TPLINK Archer BE550 v1
+
+python BasicDetails.py be550v1-up-all-ver1-0-1-P1\[20230707-rel71757\]_sign_2023-07-07_20.14.23.bin 
++--------------------------------+---------------------------------------------------------+
+| Parameter                      | Value                                                   |
++================================+=========================================================+
+| CPIO Root Folder Addresses     | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| SquashFS Root Folder Addresses | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| Firmware Endianness            | Big Endian                                              |
++--------------------------------+---------------------------------------------------------+
+| Entropy                        | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| First 4 bytes (xxd)            | 00000000: 02c6 110b                                .... |
++--------------------------------+---------------------------------------------------------+
+| Firmware Architecture          | Unknown                                                 |
++--------------------------------+---------------------------------------------------------+
+| Architecture Variant           | N/A                                                     |
++--------------------------------+---------------------------------------------------------+
+
+python CVE-2022-1262P1.py be550v1-up-all-ver1-0-1-P1\[20230707-rel71757\]_sign_2023-07-07_20.14.23.bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py be550v1-up-all-ver1-0-1-P1\[20230707-rel71757\]_sign_2023-07-07_20.14.23.bin 
+No protest binary files found in the folder.
+
+python Log4jVulnerabilityDetection.py be550v1-up-all-ver1-0-1-P1\[20230707-rel71757\]_sign_2023-07-07_20.14.23.bin
+No potential Log4j exploits found in the folder.
+
+
+#5 TPLINK Archer AX11000 v1
+
+python BasicDetails.py ax11000v1-up-ver1-3-2-P1\[20221128-rel45807\]_sign_2022-11-28_12.45.12.bin 
++--------------------------------+---------------------------------------------------------+
+| Parameter                      | Value                                                   |
++================================+=========================================================+
+| CPIO Root Folder Addresses     | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| SquashFS Root Folder Addresses | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| Firmware Endianness            | Big Endian                                              |
++--------------------------------+---------------------------------------------------------+
+| Entropy                        | NA                                                      |
++--------------------------------+---------------------------------------------------------+
+| First 4 bytes (xxd)            | 00000000: 02d2 128b                                .... |
++--------------------------------+---------------------------------------------------------+
+| Firmware Architecture          | Unknown                                                 |
++--------------------------------+---------------------------------------------------------+
+| Architecture Variant           | N/A                                                     |
++--------------------------------+---------------------------------------------------------+
+
+python CVE-2022-1262P1.py ax11000v1-up-ver1-3-2-P1\[20221128-rel45807\]_sign_2022-11-28_12.45.12.bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _ax11000v1-up-ver1-3-2-P1\[20221128-rel45807\]_sign_2022-11-28_12.45.12.bin.extracted/ 
+No protest binary files found in the folder.
+
+
+python Log4jVulnerabilityDetection.py _ax11000v1-up-ver1-3-2-P1\[20221128-rel45807\]_sign_2022-11-28_12.45.12.bin.extracted/
+
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn2.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/Secondary Menu.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn3@3x.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn1.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/speed 1bg.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn1-hover.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/Spread-Selected.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn1-disabled@3x.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/3.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/Secondary Menu2.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/3@3x.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn1-disabled.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn3.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/btn2@3x.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/bg/bg-cell.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/spriteImages/png/sprite.shn.blocking.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/spriteImages/png/sprite.total.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/input2.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/black.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/input1.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/menu2.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/menu.png
+_ax11000v1-up-ver1-3-2-P1[20221128-rel45807]_sign_2022-11-28_12.45.12.bin.extracted/ubifs-root/2098593834/rootfs_ubifs/www/webpages/themes/gaming/img/ie/body.png
+No potential Log4j exploits found in the folder.
+
+
+#6 TPLINK Archer C7 v1
+
+python BasicDetails.py ArcherC7v1_en_3_15_1_up_boot\(141204\).bin 
++--------------------------------+------------+
+| Parameter                      | Value      |
++================================+============+
+| CPIO Root Folder Addresses     | NA         |
++--------------------------------+------------+
+| SquashFS Root Folder Addresses | NA         |
++--------------------------------+------------+
+| Firmware Endianness            | Big Endian |
++--------------------------------+------------+
+| Entropy                        | NA         |
++--------------------------------+------------+
+| First 4 bytes (xxd)            |            |
++--------------------------------+------------+
+| Firmware Architecture          | Unknown    |
++--------------------------------+------------+
+| Architecture Variant           | N/A        |
++--------------------------------+------------+
+
+python CVE-2022-1262P1.py ArcherC7v1_en_3_15_1_up_boot\(141204\).bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _ArcherC7v1_en_3_15_1_up_boot\(141204\).bin.extracted/ 
+No protest binary files found in the folder.
+
+
+python Log4jVulnerabilityDetection.py _ArcherC7v1_en_3_15_1_up_boot\(141204\).bin.extracted/
+
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/GuestNetFolderAdvHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/ParentCtrlHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WzdWlanHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/NasCfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/ParentCtrlAdvHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/SysRouteTableHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WzdWanTypeHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WzdAccessCtrlHostAddHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WanSpeedModeHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/PPPoEv6CfgAdvHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WlanSecurityHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/ChangeLoginPwdHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/MacCloneCfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/NasFtpCfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/AccessCtrlAccessRulesHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/AccessCtrlHostsListsHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WanStaticIpV6CfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WzdAccessCtrlTargetAddHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/RestoreDefaultCfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WlanNetworkHelpRpm_5g.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/AccessCtrlAccessRulesAdvHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/help/WanStaticIpCfgHelpRpm.htm
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/localiztion/char_set.js
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/localiztion/str_err.js
+_ArcherC7v1_en_3_15_1_up_boot(141204).bin.extracted/squashfs-root/web/localiztion/str_menu.js
+No potential Log4j exploits found in the folder.
+
+
+#7 TPLINK Deco X55 v1
+
+python BasicDetails.py X55\ 1.0_en_1.2.7\ Build\ 20230620\ Rel.\ 31797_US_EU_CA_JP_up.bin 
++--------------------------------+---------------+
+| Parameter                      | Value         |
++================================+===============+
+| CPIO Root Folder Addresses     | NA            |
++--------------------------------+---------------+
+| SquashFS Root Folder Addresses | NA            |
++--------------------------------+---------------+
+| Firmware Endianness            | Little Endian |
++--------------------------------+---------------+
+| Entropy                        | NA            |
++--------------------------------+---------------+
+| First 4 bytes (xxd)            |               |
++--------------------------------+---------------+
+| Firmware Architecture          | Unknown       |
++--------------------------------+---------------+
+| Architecture Variant           | N/A           |
++--------------------------------+---------------+
+
+python CVE-2022-1262P1.py X55\ 1.0_en_1.2.7\ Build\ 20230620\ Rel.\ 31797_US_EU_CA_JP_up.bin 
++---------------------------------------------------------+-----------+
+| Vulnerability Type                                      | Status    |
++=========================================================+===========+
+| Command Injection via pipes, semicolons, or parentheses | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via backticks                         | Not found |
++---------------------------------------------------------+-----------+
+| Command Injection via variable assignment               | Not found |
++---------------------------------------------------------+-----------+
+
+python CVE-2022-1262P2.py _X55\ 1.0_en_1.2.7\ Build\ 20230620\ Rel.\ 31797_US_EU_CA_JP_up.bin.extracted/ 
+No protest binary files found in the folder.
+
+
+python Log4jVulnerabilityDetection.py _X55\ 1.0_en_1.2.7\ Build\ 20230620\ Rel.\ 31797_US_EU_CA_JP_up.bin.extracted/
+Scanned Files:
+_X55 1.0_en_1.2.7 Build 20230620 Rel. 31797_US_EU_CA_JP_up.bin.extracted/1814.ubi
+No potential Log4j exploits found in the folder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
